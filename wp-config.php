@@ -26,7 +26,7 @@ define('DB_NAME', 'cfz');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Ootes1992');
+define('DB_PASSWORD', 'h@rdC0d3d');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -87,3 +87,11 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// // url of front end
+// define('WP_HOME','http://cfz.local');
+
+// // url of wordpress backend
+// define('WP_SITEURL','http://cfz.local');
+
+define('NUXT_URL', 'http://localhost:8000');
