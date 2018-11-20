@@ -9,3 +9,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-l
 
 #
 GRANT ALL ON wordpress.* TO 'wordpressuser'@'localhost' IDENTIFIED BY 'h@rdC0d3d ';
+
+# RIGHTS FOR WEB
+sudo chown -R www-data wp-content/uploads
+
+chown -Rf www-data.www-data /var/www/html/
