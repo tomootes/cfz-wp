@@ -38,6 +38,7 @@ function limit_text($text, $limit)
 
 require_once dirname( __FILE__ ) . '/lib/musician.php';
 require_once dirname( __FILE__ ) . '/lib/post.php';
+require_once dirname( __FILE__ ) . '/lib/event.php';
 
 // // echo 'Current PHP version: ' . phpversion();
 

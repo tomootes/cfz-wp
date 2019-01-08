@@ -61,7 +61,7 @@ $generated_i18n_strings = array(
 	// Reference: scripts/fields/components/config/field-list-form.js:58
 	__( 'Add Field', 'gutenberg-custom-fields' ),
 
-	// Reference: scripts/fields/fields/date.js:10
+	// Reference: scripts/fields/fields/date.js:9
 	__( 'Date', 'gutenberg-custom-fields' ),
 
 	// Reference: scripts/fields/fields/datetime.js:22
