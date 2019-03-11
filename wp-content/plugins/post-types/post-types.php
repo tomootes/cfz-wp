@@ -42,6 +42,8 @@ function register_event() {
   register_post_type( 'event', $args );
 }
 
-add_action( 'init', 'register_event' );
+add_action('init', 'register_event');
+
+require_once dirname( __FILE__ ) . '/acf-fields/event-fields.php';
 
 ?>
